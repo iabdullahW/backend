@@ -8,7 +8,7 @@ const app = express();
 // Enable CORS for all routes
 app.use(cors());
 
-const groq = new Groq(process.env.GROQ_API_KEY);
+const groq = new Groq('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';
 
 app.use(express.json());
 
